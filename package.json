@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/sebastianwachter/hubot-steamdeal/issues"
   },
-  "homepage": "https://github.com/sebastianwachter/hubot-steamdeal#readme"
+  "homepage": "https://github.com/sebastianwachter/hubot-steamdeal#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "got": "^6.1.0"
+  }
 }
