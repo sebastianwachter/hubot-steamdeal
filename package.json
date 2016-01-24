@@ -1,0 +1,24 @@
+{
+  "name": "hubot-steamdeal",
+  "version": "1.0.0",
+  "description": "Ask your hubot for the daily steamdeal.",
+  "main": "steam-dailyapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "sebastianwachter/hubot-steamdeal",
+  "keywords": [
+    "hubot",
+    "steam",
+    "steamdeal"
+  ],
+  "author": "Sebastian Wachter <sebi.wachter@online.de>",
+  "contributors": [
+    "Filip Weiss <me@fiws.net>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianwachter/hubot-steamdeal/issues"
+  },
+  "homepage": "https://github.com/sebastianwachter/hubot-steamdeal#readme"
+}
