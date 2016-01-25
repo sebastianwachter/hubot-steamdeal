@@ -9,7 +9,7 @@ Then make sure the dependencies are installed:
 ```
 $ npm install
 ```
-You may also want to consider running the first command with the `--save` option to add it to your package.json so you don't have to install it manually on every time.
+You may also want to consider running the first command with the `--save` option to add it to your package.json so you don't have to install it manually every time.
 ## Usage
 Your hubot will listen to the following commands:<br /><br />
 This is the basic functionality. Inform you about the current daily deal.<br />
