@@ -9,7 +9,7 @@ Then make sure the dependencies are installed:
 ```
 $ npm install
 ```
-You may also want to consider running the first command with the `--save` option to add it to your package.json so you don't have to install it manually on every time.
+You may also want to consider running the first command with the `--save` option to add it to your package.json so you don't have to install it manually every time.
 ## Usage
 Hubot listens to the command `hubot steamdeal` and will return an image of the game and a message similar to this:
 > Instead of 14.99€ you get Windward for 4.94€! That's -67%!
