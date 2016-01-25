@@ -1,40 +1,56 @@
-# hubot-steamdeal
+hubot-steamdeal
+===============
+
 Ask you hubot for the current daily steamdeal.
+
 ## Installation
+
 Run the following command:
 ```
 $ npm install hubot-steamdeal
 ```
+
 Then make sure the dependencies are installed:
 ```
 $ npm install
 ```
+
 You may also want to consider running the first command with the `--save` option to add it to your package.json so you don't have to install it manually every time.
+
 ## Usage
+
 Your hubot will listen to the following commands:<br /><br />
 This is the basic functionality. Inform you about the current daily deal.<br />
 
 `hubot steamdeal me`
+
 ```
 hubot> <link to image here> 
 hubot> Instead of 14.99€ you get Windward for 4.94€! That's -67%!
 ```
 ---
-<br />
-The more advanced functionality. It also sends a link so you can buy it instantly.<br />
+
+
+The more advanced functionality. It also sends a link so you can buy it instantly.
+
 `hubot steamdeal link`
+
 ```
 hubot> <link to image here> 
 hubot> Instead of 14.99€ you get Windward for 4.94€! That's -67%!
 hubot> <link to the game here>
 ```
+
 ---
-<br />
-The full functionality: All of the above and even the description of the game is shown.<br />
+
+The full functionality: All of the above and even the description of the game is shown.
+
 `hubot steamdeal full`
+
 ```
 hubot> <link to image here> 
 hubot> Instead of 14.99€ you get Windward for 4.94€! That's -67%!
 hubot> <description of the game here>
 hubot> <link to the game here>
 ```
+
