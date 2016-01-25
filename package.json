@@ -1,6 +1,6 @@
 {
   "name": "hubot-steamdeal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ask your hubot for the daily steamdeal.",
   "main": "steam-dailyapi.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/sebastianwachter/hubot-steamdeal#readme",
   "dependencies": {
     "cheerio": "^0.19.0",
-    "got": "^6.1.0"
+    "got": "^6.1.0",
+    "sanitize-html": "^1.11.3"
   }
 }
