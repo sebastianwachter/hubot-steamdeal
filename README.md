@@ -20,20 +20,10 @@ You may also want to consider running the first command with the `--save` option
 ## Usage
 
 Your hubot will listen to the following commands:<br /><br />
+
 This is the basic functionality. Inform you about the current daily deal.<br />
 
 `hubot steamdeal me`
-
-```
-hubot> <link to image here> 
-hubot> Instead of 14.99€ you get Windward for 4.94€! That's -67%!
-```
----
-
-
-The more advanced functionality. It also sends a link so you can buy it instantly.
-
-`hubot steamdeal link`
 
 ```
 hubot> <link to image here> 
@@ -43,7 +33,7 @@ hubot> <link to the game here>
 
 ---
 
-The full functionality: All of the above and even the description of the game is shown.
+The full functionality: The above functionality and the description of the game is shown (it may be very long keep that in mind).
 
 `hubot steamdeal full`
 

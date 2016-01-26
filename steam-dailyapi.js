@@ -23,8 +23,8 @@ module.exports = (robot) => {
         let discount = price.discount_percent;
         msg.send(game.header_image);
         msg.send(`Instead of ${initial}€ you get ${name} for ${final}€! That\'s -${discount}%!`);
-        if (args === 'link') {
-          msg.send(`https://http://store.steampowered.com/app/${id}`);
+        if (args === 'me') {
+          msg.send(`https://store.steampowered.com/app/${id}`);
         } else if (args === 'full') {
           let description = game.detailed_description;
           let clean = sanitize(description, {
