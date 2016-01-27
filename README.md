@@ -1,7 +1,7 @@
 hubot-steamdeal
 ===============
 
-Ask you hubot for the current daily steamdeal.
+Ask your hubot for the current daily steamdeal.
 
 ## Installation
 
