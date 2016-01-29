@@ -5,7 +5,7 @@ const got = require('got');
 const sanitize = require('sanitize-html');
 
 module.exports = (robot) => {
-  robot.hear(/steamdeal (.*)/i, (msg) => {
+  robot.respond(/steamdeal (.*)/i, (msg) => {
     var args = msg.match[1];
     got('http://store.steampowered.com').then((res) => {
       var body = res.body;
