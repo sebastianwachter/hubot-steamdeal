@@ -1,6 +1,6 @@
 {
   "name": "hubot-steamdeal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Ask your hubot for the daily steamdeal.",
   "main": "steam-dailyapi.js",
   "scripts": {
