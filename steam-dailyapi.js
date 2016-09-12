@@ -1,3 +1,19 @@
+// Description:
+//   Get the current steam daily deal. Short version without the description
+//   and the long version with its full description.
+//
+// Dependencies:
+//   "cheerio": "latest"
+//   "got": "latest"
+//   "sanitize-html": "latest"
+//
+// Commands:
+//   hubot steamdeal me - Show the current steam daily deal.
+//   hubot steamdeal full - Show the current steam daily deal with its full description.
+//
+// Author:
+//   sebastianwachter
+
 'use strict';
 
 const cheerio = require('cheerio');
@@ -28,7 +44,7 @@ module.exports = (robot) => {
         } else if (args === 'full') {
           let description = game.detailed_description;
           let clean = sanitize(description, {
-            allowedTags: [], 
+            allowedTags: [],
             allowedAttributes: {}
           });
           msg.send(`Description:\n${clean}`);
