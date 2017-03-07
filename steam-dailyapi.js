@@ -28,7 +28,8 @@ module.exports = (robot) => {
       if (res.statusCode !== 200) return msg.send('Steam currently unavailable!');
 
       let $ = cheerio.load(body);
-      let id = $('.dailydeal_ctn .dailydeal_cap').attr('data-ds-appid');
+      let idAttr = $('.dailydeal_desc .dailydeal_countdown').attr('id');
+      let id = idAttr.substr(idAttr.length - 6);
       let url = `http://store.steampowered.com/api/appdetails/?appids=${id}`;
       got(url, { json: true }).then((res) => {
         let game = res.body[id].data;
